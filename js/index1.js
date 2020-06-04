@@ -2,6 +2,7 @@
 
 const userAge =  +prompt('How old are You?');
 
-const message = ( userAge == 0 || userAge <= 2) ? 'kid': ( userAge >= 12 && userAge <= 17) ? 'teenager' : (userAge >= 18 && userAge <=60  ) ? 'adult': (userAge >= 61) ? 'Harry Oldman)': '';
+const message = ( userAge == 0 || userAge <= 2) ? 'kid': ( userAge >= 12 && userAge <= 17) ? 'teenager' : (userAge >= 18 && userAge <=60  ) ? 'adult': (userAge >= 61) ? 'Bruce Willis)': '';
 
 alert(`You are ${message}!`);
+

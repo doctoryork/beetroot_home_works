@@ -1,6 +1,6 @@
 // Запросить у пользователя трехзначное число и проверить, есть ли в нем одинаковые цифры.
 
-const num = +prompt('Enter the threedigit number : ');33
+const num = +prompt('Enter the threedigit number : ');
 
 let num1 = parseInt(num / 100);
 let num2 = parseInt(num / 10) % 10;
