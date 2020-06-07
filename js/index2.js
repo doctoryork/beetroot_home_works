@@ -12,3 +12,5 @@ if(num1 === num2 || num2 === num3 || num1 === num3) {
   alert('No equeal numbers')
 }
 
+
+

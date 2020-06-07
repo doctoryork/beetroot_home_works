@@ -1,8 +1,8 @@
 // Написать конвертор валют. Пользователь вводит количество USD, выбирает, в какую валюту хочет перевести EUR, UAN или AZN, и получает в ответ соответствующ
 
 
-let input;  
-const currency = prompt('Choose the currency you want to convert USD');
+
+const input = prompt('Choose the currency you want to convert USD');
 const amount = +prompt('Put the amount $');
 
 
